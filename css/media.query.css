@@ -1,0 +1,307 @@
+/* media queries */
+
+/* xs screen */
+@media (min-width: 0px) {
+  nav .dropdown .container {
+    width: 100%;
+    left: 0px;
+    /* right: 200px; */
+    /* background-color: red; */
+  }
+  .featured-properties-container h4 {
+    font-size: 0.8rem;
+    word-wrap: break-word;
+  }
+  .featured-properties-container p {
+    font-size: 0.7rem;
+    word-wrap: break-word;
+  }
+  nav .nav-image-container {
+    width: 85px;
+    height: 55px;
+  }
+  nav .dropdown .bg-sm-light {
+    background-color: rgba(248, 249, 250, 1);
+  }
+  .dropdown-menu {
+    position: static;
+    height: 60vh;
+    overflow: scroll;
+  }
+
+  .popular-locations-container .popular-locations h3 {
+    font-size: 16px;
+  }
+  .popular-locations-container .popular-locations p {
+    font-size: 13px;
+  }
+
+  .nav-item {
+    padding-left: 0.4rem;
+    border-radius: 0.2rem;
+  }
+  nav .navbar-nav li::before {
+    background-color: transparent;
+  }
+  nav .nav-item:hover {
+    background-color: var(--color-violet-100);
+    /* padding: 0.4rem; */
+  }
+  header .header-form {
+    width: 100%;
+  }
+  header {
+    padding-top: 140px;
+  }
+  .header-activities h6 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+  }
+
+  .header-activities p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--color-gray-300);
+  }
+  header article h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  header article .lead {
+    max-width: 42rem;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: var(--color-gray-200);
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .services-list-img-container {
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+    align-self: flex-end;
+  }
+  .services-list-img-container .custom-badge-01 {
+    bottom: 0;
+    left: 0;
+    transform: translate(-5%, 25%);
+  }
+  .services-list-img-container .custom-badge-02 {
+    bottom: 0;
+    right: 0;
+    transform: translate(5%, 25%);
+  }
+  .services-list .services-list-icon-container {
+    height: 55px;
+    width: 90px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services-list .services-list-icon-container i {
+    font-size: 20px;
+  }
+  #testimonials #carouselExampleIndicators {
+    height: 650px;
+  }
+  #testimonials .carousel-inner {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
+  }
+  .accordion-button {
+    padding-block: 30px;
+    border: none;
+    font-size: 14px;
+  }
+  .accordions-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer .container > div h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  footer .container > div p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  footer ul li {
+    width: 40px;
+    height: 40px;
+  }
+  footer ul li i {
+    font-size: 18px;
+  }
+}
+
+/* sm screen */
+@media (min-width: 576px) {
+}
+/* md screen */
+@media (min-width: 768px) {
+  .services-list-img-container {
+    width: 100%;
+  }
+  .services-list-img-container .custom-badge-01 {
+    bottom: 0;
+    left: 0;
+    transform: translate(-20%, 25%);
+  }
+  .services-list-img-container .custom-badge-02 {
+    bottom: 0;
+    right: 0;
+    transform: translate(20%, 25%);
+  }
+  .services-list .services-list-icon-container {
+    height: 70px;
+    width: 60px;
+  }
+  .services-list .services-list-icon-container i {
+    font-size: 20px;
+  }
+  #testimonials #carouselExampleIndicators {
+    height: 450px;
+  }
+  #testimonials .carousel-inner {
+    width: 75%;
+  }
+  .accordion-button {
+    font-size: 20px;
+  }
+  footer .container > div h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  footer .container > div p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  footer ul li {
+    width: 40px;
+    height: 40px;
+  }
+  footer ul li i {
+    font-size: 18px;
+  }
+}
+/* lg screen */
+@media (min-width: 992px) {
+  nav .dropdown .container {
+    width: 1200px;
+    left: -800px;
+  }
+  nav .custom-btn {
+    width: auto;
+  }
+  header .container {
+    /* padding-top: 14rem; */
+  }
+  nav .nav-image-container {
+    width: 65px;
+    height: 65px;
+  }
+  nav .dropdown .bg-sm-light {
+    background-color: transparent;
+  }
+  .dropdown-menu {
+    position: absolute;
+    height: auto;
+    overflow: visible;
+  }
+  .popular-locations-container .popular-locations h3 {
+    font-size: 18px;
+  }
+  .popular-locations-container .popular-locations p {
+    font-size: 14px;
+  }
+  .nav-item {
+    padding-left: 0;
+    border-radius: 0;
+  }
+  nav .navbar-nav li::before {
+    background-color: var(--color-violet-600);
+  }
+  .nav-item:hover {
+    background-color: transparent;
+    /* padding: 0.4rem; */
+  }
+  header .header-form {
+    width: 70%;
+  }
+  header {
+    padding-top: 150px;
+  }
+  .header-activities h6 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+  }
+
+  .header-activities p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--color-gray-300);
+  }
+  header article h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  header article p {
+    max-width: 690px;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: var(--color-gray-200);
+  }
+  .services-list-img-container {
+    width: 80%;
+  }
+  .services-list .services-list-icon-container {
+    height: 45px;
+    width: 45px;
+  }
+  .services-list .services-list-icon-container i {
+    font-size: 18px;
+  }
+  #testimonials #carouselExampleIndicators {
+    height: 350px;
+  }
+  #testimonials .carousel-inner {
+    width: 75%;
+  }
+  .accordion-button {
+    font-size: 20px;
+  }
+  .accordions-container {
+    width: 65%;
+    margin: 0 auto;
+  }
+  footer .container > div h2 {
+    font-size: 24px;
+  }
+
+  footer .container > div p {
+    font-size: 16px;
+  }
+}
+/* xl screen */
+@media (min-width: 1200px) {
+}
+/* xxl screen */
+@media (min-width: 1400px) {
+}
