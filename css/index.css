@@ -72,6 +72,7 @@ nav .navbar-nav li::before {
 nav .navbar-nav li:hover::before {
   width: 100%;
 }
+
 nav .nav-image-container {
   width: 65px;
   height: 65px;
@@ -685,6 +686,52 @@ header article .card {
 }
 
 /* contact us */
+#contact {
+  overflow: hidden;
+}
+.contact-circle-top-right {
+  width: 300px;
+  height: 300px;
+  top: 0;
+  right: 0;
+  transform: translate(30%, -20%);
+  background-color: var(--color-violet-100);
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-circle-top-right > div {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 0;
+  bottom: 0;
+  border-radius: 50%;
+  border: 4px solid var(--color-violet-200);
+}
+.contact-circle-bottom-left {
+  width: 300px;
+  height: 300px;
+  bottom: 0;
+  left: 0;
+  transform: translate(-30%, 20%);
+  background-color: var(--color-violet-100);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-circle-bottom-left > div {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  border: 4px solid var(--color-violet-200);
+}
 
 .contact-us-icon-container {
   height: 60px;
@@ -775,7 +822,30 @@ header article .card {
   outline: 2px solid var(--color-violet-100);
   box-shadow: 0 0 0 0.25rem var(--color-violet-300);
 }
-
+.coonnect-with-us-container {
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-purple-600),
+    var(--color-purple-700)
+  );
+}
+.coonnect-with-us-container a {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #6921a8;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  cursor: pointer;
+  transform: scale(1);
+}
+.coonnect-with-us-container a:hover {
+  background-color: var(--color-violet-600);
+  transform: scale(1.1);
+}
 /* footer */
 footer {
   background-image: linear-gradient(to right, #4e1699, #58178d);

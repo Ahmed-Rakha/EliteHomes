@@ -58,6 +58,11 @@
   color: black;
   font-weight: bold;
 }
+.text-md-white {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
 .text-lg-dark {
   font-size: 30px;
   color: black;
