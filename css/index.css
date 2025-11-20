@@ -59,7 +59,14 @@ nav {
 nav li.nav-item {
   position: relative;
 }
-nav .navbar-nav li::before {
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--color-violet-600);
+  font-weight: bold;
+}
+nav .navbar-nav li::before,
+nav .navbar-nav li:has(.nav-link.active)::before,
+nav .navbar-nav li:has(.nav-link.show)::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -69,7 +76,9 @@ nav .navbar-nav li::before {
   background-color: var(--color-violet-600);
   transition: width 0.3s ease-in-out;
 }
-nav .navbar-nav li:hover::before {
+nav .navbar-nav li:hover::before,
+nav .navbar-nav li:has(.nav-link.active)::before,
+nav .navbar-nav li:has(.nav-link.show)::before {
   width: 100%;
 }
 

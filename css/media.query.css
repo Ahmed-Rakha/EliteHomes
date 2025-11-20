@@ -234,7 +234,7 @@
   nav .navbar-nav li::before {
     background-color: var(--color-violet-600);
   }
-  .nav-item:hover {
+  nav .nav-item:hover {
     background-color: transparent;
     /* padding: 0.4rem; */
   }

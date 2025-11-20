@@ -28,8 +28,17 @@
     <!-- media queries -->
     <link rel="stylesheet" href="./css/media.query.css" />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+  <body
+    class="position-relative"
+    data-bs-spy="scroll"
+    data-bs-target="#navbar-scrollspy"
+    data-bs-offset="70"
+    tabindex="0"
+  >
+    <nav
+      class="navbar navbar-expand-lg bg-white fixed-top"
+      id="navbar-scrollspy"
+    >
       <div class="container">
         <h1 class="navbar-brand mb-0">EliteHomes</h1>
 
@@ -67,7 +76,7 @@
             <li class="nav-item dropdown">
               <a
                 class="nav-link"
-                href="#"
+                href="#properties"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -344,7 +353,7 @@
       </div>
     </nav>
 
-    <header>
+    <header id="home">
       <div class="container">
         <article class="text-center d-flex flex-column justify-content-center">
           <h2 class="text-capitalize text-white">Find Your Dream Home</h2>
